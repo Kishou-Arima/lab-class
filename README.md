@@ -14,6 +14,9 @@ The workspace contains two folders by default, where:
 ## Dependency Management
 
 Details on dependencies can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<<<<<<< HEAD
 
 # lab-class
 # lab-class
+=======
+>>>>>>> 4dff3fcefb992fecec56b48c2362b8835e0b10e7
