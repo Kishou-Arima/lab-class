@@ -1,7 +1,7 @@
 ## Introduction
 
 *This is my OOP Lab Class Workspace Folder*
-You'll find all the Programs written **during** the Lab class here.
+You'll find all the Programs written **during** the Lab class in this folder/workspace.
 
 ## Folder Structure
 
