@@ -31,10 +31,6 @@ class Primelogic
         }
         System.out.println(num);
     }
-    public void compute()
-    {
-        prime();   
-    }
 }
 
 public class Prime 
@@ -43,6 +39,6 @@ public class Prime
     {
         Primelogic obj=new Primelogic();
         obj.input();
-        obj.compute();
+        obj.prime();
     }
 } 
