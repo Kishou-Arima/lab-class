@@ -8,7 +8,7 @@ class Fib
         System.out.println("Enter the number of the series: ");
         in=sc.nextInt();
     }
-    public void fibonacci()
+    public void fibonacci1()
     {
         int a=0;
         int b=1;
@@ -21,10 +21,7 @@ class Fib
         }
         System.out.println(a);
     }
-    public void compute()
-    {
-        fibonacci();   
-    }
+    
 }
 public class Fibonacci 
 {
@@ -32,6 +29,6 @@ public class Fibonacci
     {
         Fib obj=new Fib();
         obj.input();
-        obj.compute();
+        obj.fibonacci1();
     }
 }

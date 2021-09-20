@@ -3,23 +3,23 @@ class FactLogic
 {
     private Scanner sc = new Scanner(System.in);
     private int input;
+    private int f;
     public void input()
     {
         System.out.println("Enter a number: ");
         input=sc.nextInt();
     }
-    public int fact()
+    public void fact()
     {    
-        int f=1;
+        f=1;
         for(int i=1;i<=input;i++)
         {
             f=f*i;
-        }
-        return f;  
+        }  
     }
     public void output()
     {
-        System.out.println("The Factorial is "+fact());
+        System.out.println("The Factorial is "+f);
     }
 
 }
@@ -30,6 +30,7 @@ public class Factorial
     {
         FactLogic a=new FactLogic();
         a.input();
+        a.fact();
         a.output();
     }
 }

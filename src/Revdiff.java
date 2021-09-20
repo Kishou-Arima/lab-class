@@ -22,18 +22,18 @@ class RevdiffLogic
         }
         System.out.println("The Reverse is: "+ revnumber);
     }
-    public int diff()
+    /*public int diff()
     {
         rev();
         if(input<revnumber)
             return revnumber-input;
         else
             return input-revnumber;
-    }
+    }*/
     
     public void output()
     {
-        System.out.println("The Difference is: "+ diff());
+        System.out.println("The Difference is: "+ Math.abs(revnumber-input));
     }
 }
 public class Revdiff 
@@ -42,6 +42,7 @@ public class Revdiff
     {
         RevdiffLogic a=new RevdiffLogic();
         a.input();
+        a.rev();
         a.output();   
     }
 }
