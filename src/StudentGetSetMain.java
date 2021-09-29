@@ -9,47 +9,54 @@ class StudentInfo1
 	private double sub2;
 	private double totalmarks;
 
-	public int getRoll_no() {
-		return rollno;
+	public int getRollno() {
+		return this.rollno;
 	}
-	public void setRoll_no(int rollno) {
+
+	public void setRollno(int rollno) {
 		this.rollno = rollno;
 	}
-	
+
 	public String getName() {
-		return name;
+		return this.name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public String getStream() {
-		return stream;
+		return this.stream;
 	}
+
 	public void setStream(String stream) {
 		this.stream = stream;
 	}
-	
+
 	public double getSub1() {
-		return sub1;
+		return this.sub1;
 	}
+
 	public void setSub1(double sub1) {
 		this.sub1 = sub1;
 	}
-	
+
 	public double getSub2() {
-		return sub2;
+		return this.sub2;
 	}
+
 	public void setSub2(double sub2) {
 		this.sub2 = sub2;
 	}
-	
+
 	public double getTotalmarks() {
-		return totalmarks;
+		return this.totalmarks;
 	}
+
 	public void setTotalmarks(double totalmarks) {
 		this.totalmarks = totalmarks;
 	}
+
 }
 
 class StudentGetSetLogic
@@ -61,7 +68,7 @@ class StudentGetSetLogic
 	{
 		sc = new Scanner(System.in);
 		System.out.println("Enter Roll No ");
-		stud1.setRoll_no(sc.nextInt());
+		stud1.setRollno(sc.nextInt());
 		
 		System.out.println("Enter Name ");
 		stud1.setName(sc.next());
@@ -80,7 +87,7 @@ class StudentGetSetLogic
 	
 	public void display()
 	{
-		System.out.println("Roll No is " + stud1.getRoll_no());
+		System.out.println("Roll No is " + stud1.getRollno());
 		System.out.println("Name is "+ stud1.getName());
 		System.out.println("Stream is "+ stud1.getStream());
 		System.out.println("1st Sub Marks is "+ stud1.getSub1());
