@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class StudentInfo1 
 {
-	private int roll_no;
+	private int rollno;
 	private String name;
 	private String stream;
 	private double sub1;
@@ -10,10 +10,10 @@ class StudentInfo1
 	private double totalmarks;
 
 	public int getRoll_no() {
-		return roll_no;
+		return rollno;
 	}
-	public void setRoll_no(int roll_no) {
-		this.roll_no = roll_no;
+	public void setRoll_no(int rollno) {
+		this.rollno = rollno;
 	}
 	
 	public String getName() {
@@ -55,10 +55,11 @@ class StudentInfo1
 class StudentGetSetLogic
 {
 	StudentInfo1 stud1 = new StudentInfo1();
+	private Scanner sc;
 	
 	public void userInput()
 	{
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		System.out.println("Enter Roll No ");
 		stud1.setRoll_no(sc.nextInt());
 		
