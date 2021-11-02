@@ -14,7 +14,7 @@ class Splitterlogic
         String num= Integer.toString(n);
         for(int i=0;i<num.length();i++)
         {
-            System.out.println(num.charAt(i));
+            System.out.print(num.charAt(i));
         }
     }
 }
