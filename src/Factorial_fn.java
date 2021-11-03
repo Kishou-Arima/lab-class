@@ -2,26 +2,27 @@ import java.util.Scanner;
 class Fact_logic
 {
     private Scanner sc = new Scanner(System.in);
-    private int input;
+    private int in;
     public void input()
     {
         System.out.println("Enter a number: ");
-        input=sc.nextInt();
+        in=sc.nextInt();
     }
-    public long fact(int input)
+    public int fact(int in)
     {    
-        if(input==0)
+        if(in==0)
         {
             return 1;
         }
         else
         {
-            return fact(input-1);
+            return (in*fact(in-1));
         }
     }
     public void output()
     {
-        System.out.println("The Factorial is "+fact(input));
+        int f=fact(in);
+        System.out.println("The Factorial is "+f);
     }
 
 }
