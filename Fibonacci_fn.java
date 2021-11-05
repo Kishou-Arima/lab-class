@@ -1,12 +1,12 @@
-import java.util.Scanner;
-class Fiblog
+import java.util.*;
+class Fib_log
 {
-    private Scanner sc = new Scanner(System.in);
+    private static Scanner sc = new Scanner(System.in);
     private static int in;
     private static int n1=0;
     private static int n2=1;
     private static int n3=0;
-    public void input()
+    public static void input()
     {
         System.out.println("Enter a number: ");
         in=sc.nextInt();
@@ -32,8 +32,7 @@ public class Fibonacci_fn
 {
     public static void main(String[] args) 
     {
-        Fiblog a= new Fiblog();
-        a.input();
-        Fiblog.output();
+        Fib_log.input();
+        Fib_log.output();
     } 
 }
