@@ -22,7 +22,7 @@ class Fact_logic
     public void output()
     {
         int f=fact(in);
-        System.out.println("The Factorial is "+f);
+        System.out.print("The Factorial is "+f);
     }
 
 }
