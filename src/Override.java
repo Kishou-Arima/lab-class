@@ -1,5 +1,3 @@
-import javax.sql.rowset.spi.SyncResolver;
-
 class Automobiles
 {
     void drive()
