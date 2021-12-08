@@ -5,7 +5,7 @@ You'll find all the Programs written **during** the Lab class in this folder/wor
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+The workspace contains three folders, where:
 
 - `src` folder to maintain sources.
 - `lib` folder to maintain dependencies.
