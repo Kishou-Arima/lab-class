@@ -23,8 +23,8 @@ public class Hide extends Noname
     {
         Noname a=new Noname();
         Noname b=new Hide();
-        a.m1();
-        b.m1();
+        //a.m1();
+        //b.m1();
         a.m2();
         b.m2();
     }
