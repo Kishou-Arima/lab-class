@@ -18,6 +18,10 @@ class Testthrows1
     catch(Exception e)
     {
       System.out.println("exception handled");
+    }
+    finally
+    {
+      System.out.println("This is done!");
     }  
   } 
 }
