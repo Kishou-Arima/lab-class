@@ -8,10 +8,10 @@ class Vehicle
     public void showData() 
     {
         System.out.println("This is a vehicle class");
-        System.out.println("The registration number is"+regnNumber);
+        System.out.println("The registration number is "+regnNumber);
         System.out.println("The max speed is "+speed);
         System.out.println("The colour is "+colour);
-        System.out.println("The Owner Name is"+ownerName);
+        System.out.println("The Owner Name is "+ownerName);
     }
 }
 class Bus extends Vehicle 
@@ -21,7 +21,7 @@ class Bus extends Vehicle
     public void showData() 
     {
         super.showData();
-        System.out.println("This vehicle's routeNumber is"+routeNumber);
+        System.out.println("This vehicle's route Number is "+routeNumber);
     }
     public void input() 
     {
